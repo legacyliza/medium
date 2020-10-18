@@ -1,0 +1,163 @@
+@media screen and (max-width: 600px) and (min-width: 300px) {
+    body {
+        max-width: 600px;
+        margin: 0px auto;
+    }
+    .header {
+        max-width: 500px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .header__title {
+     margin-top: 15px;
+    }
+    .title-block {
+        width: 500px;
+        margin: 0px auto;
+        margin-top: 70px;
+    }
+    .links {
+        width: 300px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;  
+        margin-left: 100px;
+     }
+    .links__row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+    .links__btn > a {
+        margin: 5px;
+    }
+    .links__btn_txt {
+        font-size: 21px;
+    }
+    .info-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 400px;
+    }
+    .button-block {
+        margin-bottom: -35px;
+        width: 500px;  
+    }
+    .button-block__subtext {
+       width: 300px;
+       margin-left: 50px;
+       margin-top: 20px;
+    }
+    .button-block__btn > a {
+        width: 200px;
+        margin: 0px auto;
+    }
+    .info-row__block {
+        margin: 8px;
+        width: 600px;
+        margin-left: 120px;
+    }
+    .inner {
+        width: 500px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .inner__titile-block {
+        max-width: 400px;
+        text-align: center;
+    }
+    .inner__info-block {
+        max-width: 500px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .inner__btn > a {
+     text-align: center;
+     margin: 40px auto;
+    }
+    .inner__subtext_title {
+        margin-bottom: 20px;
+    }
+    .quotes {
+        max-width: 800px;
+    }
+    .quotes-block {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .quotes-block__title {
+       text-align: center;
+        padding-top: 0px;
+        max-width: 500px;
+    }
+    .quotes-block__rewiew {
+        max-width: 500px;
+        margin: 50px auto;
+    }
+    .quotes-block__rewiew_text {
+      text-align: center;
+      margin-left: 120px;
+      font-size: 22px;
+      max-width: 300px;
+    }
+    .quotes-block__people {
+        margin-left: 160px;
+    }
+    .section {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto;
+    }
+    hr {
+        width: 500px;
+        margin: 60px auto;
+    }
+    .background {
+        background-color: black;
+        height: 550px;
+        z-index: -1;
+        width: 500px;
+    }
+    .footer {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 70px;
+        margin: 0px auto;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .footer__contacts {
+    max-width: 500px;
+    margin: 0px auto;
+    margin-left: 50px;
+    }
+    .footer__contacts-block {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .footer__contacts-block_link {
+        padding-top: 10px;
+    }
+    .footer__contacts-block_txt {
+     line-height: 40px;
+    }
+    .footer__apps {
+        margin: 20px 70px;
+        max-width: 300px;
+    }
+}
